@@ -1,0 +1,463 @@
+html, body {
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+.top {
+    background-color: rgb(153, 153, 153);
+}
+.Home {
+    color: aliceblue;
+    padding: 15px;
+    display: inline-block;
+    font-size: 26px;
+    text-decoration: none;
+    block-size: 30px;
+    background-color: rgb(75, 75, 75);
+}
+
+
+.List {
+    background-color: rgb(75, 75, 75);
+    color: aliceblue;
+    padding: 15px;
+    display: inline-block;
+    block-size: 30px;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 150px 150px 220px 200px 250px auto;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    'Candy Drink Combo Promotion ni nu'
+    /* 'a b c d e'
+    'f g h i j'
+    'k j m n o'
+    'p q u r s' */
+    ;
+}
+.page-candy {
+grid-area: Candy;
+}
+.page-drink {
+grid-area: Drink;
+}
+.page-combo {
+grid-area: Combo;
+}
+.page-promotion {
+grid-area: Promotion;
+}
+.page-promotion1 {
+grid-area: ni;   
+}
+.page-promotion2 {
+grid-area: nu;   
+}
+
+/* .page-promotion3 {
+    grid-area: a;   
+    }
+    .page-promotion4 {
+        grid-area: b;   
+        }
+        .page-promotion5 {
+            grid-area: c;   
+            }
+            .page-promotion6 {
+                grid-area: d;   
+                }
+                .page-promotion7 {
+                    grid-area: e;   
+                    }
+                    .page-promotion8 {
+                        grid-area: f;   
+                        }
+                        .page-promotion9 {
+                            grid-area: g;   
+                            }
+                            .page-promotion10 {
+                                grid-area: h;   
+                                }
+                                .page-promotion11 {
+                                    grid-area: i;   
+                                    }
+                                    .page-promotion12 {
+                                        grid-area: j;   
+                                        }
+                                        .page-promotion13 {
+                                            grid-area: k;   
+                                            }
+                                            .page-promotion14 {
+                                                grid-area: l;   
+                                                }
+                                                .page-promotion15 {
+                                                    grid-area: m;   
+                                                    }
+                                                    .page-promotion16 {
+                                                        grid-area: n;   
+                                                        }
+                                                        .page-promotion17 {
+                                                            grid-area: o;   
+                                                            }
+                                                            .page-promotion18 {
+                                                                grid-area: p;   
+                                                                }
+                                                                .page-promotion19 {
+                                                                    grid-area: q;   
+                                                                    }
+                                                                    .page-promotion20 {
+                                                                        grid-area: u;   
+                                                                        }
+                                                                        .page-promotion21 {
+                                                                            grid-area: r;   
+                                                                            }
+                                                                            .page-promotion22 {
+                                                                                grid-area: s;   
+                                                                                } */
+                                                                                
+/* .grid {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr;
+ grid-template-rows: 1fr 1fr 1fr 1fr 2fr 2fr;
+ grid-template-areas: 
+'Candy' 'Drink' 'Combo' 'Promotion' 'ni' 'ni';
+}
+
+.page-candy {
+ grid-area: Candy;
+}
+
+.page-drink {
+ grid-area: Drink;
+}
+
+.page-combo {
+ grid-area: Combo;
+}
+
+.page-promotion {
+ grid-area: Promotion;
+}
+
+.page-promotion1 {
+grid-area: ni;
+}
+
+.page-promotion2 {
+grid-area: ni;
+} */
+/* 
+.main {
+    max-width: 1000px;
+    margin: auto;
+} */
+.Candy {
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 255, 0);
+    text-align: center;
+    padding: 50px;
+    width: 100%;
+    display: inline-block;
+    /* margin: 0; */
+    /* block-size: 40px; */
+    font-size: 23px;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 1px solid black;
+    block-size: 117px;
+
+
+    /* max-width: 700px; */
+}
+.Drink {
+    color: rgb(0, 0, 0);
+    background-color: rgb(129, 255, 39);
+    text-align: center;
+    padding: 50px;
+    width: 100%;
+    display: inline-block;
+    /* margin: 0; */
+    /* block-size: 40px; */
+    font-size: 23px;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 1px solid black;
+    block-size: 117px;
+
+
+}
+
+.Combo {
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 255, 0);
+    text-align: center;
+    padding: 50px;
+    width: 100%;
+    display: inline-block;
+    /* margin: 0; */
+    /* block-size: 40px; */
+    font-size: 23px;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 1px solid black;
+    block-size: 117px;
+
+
+}
+
+.Promotion {
+    color: rgb(0, 0, 0);
+    background-color: rgb(129, 255, 39);
+    text-align: center;
+    padding: 50px;
+    width: 100%;
+    display: inline-block;
+    /* margin: 0; */
+    /* block-size: 40px; */
+    font-size: 23px;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 1px solid black;
+    block-size: 117px;
+
+
+}
+
+.Pro1 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 255, 0);
+    text-align: center;
+    padding: 50px;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    /* margin: 0; */
+    /* block-size: 40px; */
+    font-size: 23px;
+    text-decoration: none;
+    box-sizing: border-box;
+    block-size: 117px;
+
+}
+
+.Pro2 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 255, 0);
+    text-align: center;
+    padding: 50px;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    /* margin: 0; */
+    /* block-size: 40px; */
+    font-size: 23px;
+    text-decoration: none;
+    block-size: 117px;
+
+    box-sizing: border-box;
+}
+.Pro3 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(225, 225, 225);
+    text-align: center;
+    padding: 42.9px;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    /* margin: 0; */
+    /* block-size: 40px; */
+    font-size: 23px;
+    text-decoration: none;
+    block-size: 117px;
+
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.Pro4 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 42.9px;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    /* margin: 0; */
+    /* block-size: 40px; */
+    block-size: 117px;
+
+    font-size: 23px;
+    text-decoration: none;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+.Pro5 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 249, 208);
+    text-align: center;
+    padding: 42.9px;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    /* margin: 0; */
+    /* block-size: 40px; */
+    font-size: 23px;
+    text-decoration: none;
+    box-sizing: border-box;
+    block-size: 117px;
+
+    /* border: 1px solid black; */
+}
+
+.back {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 204, 18);
+    text-align: center;
+    padding: 42.9px;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    /* margin: 0; */
+    /* block-size: 40px; */
+    font-size: 26px;
+    block-size: 117px;
+
+    text-decoration: none;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+.Bath5 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(216, 216, 216);
+    text-align: center;
+    padding: 42.9px;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    /* margin: 0; */
+    block-size: 117px;
+    font-size: 23px;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+.Bath20 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(166, 250, 201);
+    text-align: center;
+    padding: 42.9px;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    /* margin: 0; */
+    block-size: 117px;
+    font-size: 23px;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.Bath50 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(125, 199, 246);
+    text-align: center;
+    padding: 42.9px;
+    width: 100%;
+    height: 100%;
+    block-size: 117px;
+        display: inline-block;
+    /* margin: 0; */
+    /* block-size: 40px; */
+    font-size: 23px;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.Bath100 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 127, 129);
+    text-align: center;
+    padding: 42.9px;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    block-size: 117px;
+        /* margin: 0; */
+    /* block-size: 40px; */
+    font-size: 23px;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.Bath500 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(218, 131, 247);
+    text-align: center;
+    padding: 42.9px;
+    width: 100%;
+    height: 100%;
+    block-size: 117px;
+    display: inline-block;
+    /* margin: 0; */
+    /* block-size: 40px; */
+    font-size: 23px;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.Delete {
+    color: rgb(0, 0, 0);
+    background-color: rgb(251, 32, 46);
+    text-align: center;
+    padding: 42.9px;
+    width: 100%;
+    height: 100%;
+    block-size: 117px;
+        display: inline-block;
+    /* margin: 0; */
+    /* block-size: 40px; */
+    font-size: 26px;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 1px solid black;
+} 
+/* .a {
+    border: 2px color(srgb rgb(0, 0, 0) rgb(0, 0, 0) rgb(0, 0, 0));
+} */
+.foot {
+    background-color: rgb(153, 153, 153);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+
+    
+}
+
+.nameid {
+color: aliceblue;
+}
+
+.name {
+color: aliceblue;}
+
+.last {
+color: aliceblue;
+margin-inline: 30%;
+}
+
+.log {
+    text-decoration: none;
+    color: aliceblue;
+}
